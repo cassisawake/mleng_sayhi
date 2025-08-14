@@ -2,7 +2,6 @@
 This module contains the FastAPI application with endpoints for 
 status, greeting, and summing numbers
 """
-
 from fastapi import FastAPI
 from pydantic import BaseModel
 
