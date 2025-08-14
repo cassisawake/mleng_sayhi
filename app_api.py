@@ -12,6 +12,7 @@ app = FastAPI(
 )
 
 
+
 @app.get("/status")
 def get_status() -> dict:
     """Returns the server status."""
